@@ -1,0 +1,14 @@
+- Những thứ cần cài đặt trong board Jetson
++ Cài đặt HDH 5.0.2
++ Cài đặt jetbag
+
+
+## Kiểm tra xem GPU có khả năng sử dụng CUDA hay không 
+lspci | grep -i nvidia 
+update-pciids/sbin lspci
+
+## Kiểm tra bản phân phối và nhà phát hành
+uname -m && cat /etc/*release
+
+##
+sudo apk-get update
