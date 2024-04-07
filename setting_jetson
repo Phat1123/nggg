@@ -12,3 +12,6 @@ uname -m && cat /etc/*release
 
 ##
 sudo apk-get update
+
+-- Cài đặt môi trường cho cuda
+https://dev.to/ajeetraina/install-cuda-on-jetson-nano-2b06?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo
